@@ -47,4 +47,9 @@ fun main() {
     println("Array Last Element: $arrLastID")
 
 
+    val array1 = intArrayOf(1,2,3,4)
+    for(arPrint in array1){
+        println(arPrint)
+    }
+
 }
