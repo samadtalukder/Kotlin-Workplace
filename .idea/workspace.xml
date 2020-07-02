@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/condition/IfElse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conditions/IfElse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions/SimpleFunctionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loops/SimpleLoopTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/BasicDataTypeExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/BasicDataTypeExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_type/BasicDataTypeExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_type/BasicDataTypeExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condition/IfElse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_type/BasicDataTypeExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/BasicDataTypeExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_type/VariablePractise.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/VariablePractise.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -42,21 +46,35 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Kotlin.condition.IfElseKt">
-    <configuration name="HelloKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicDataTypeExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin Workplace" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="variables.BasicDataTypeExampleKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin Workplace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -69,40 +87,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="condition.IfElseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="IfElseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin Workplace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="condition.IfElseKt" />
+      <option name="MAIN_CLASS_NAME" value="conditions.IfElseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="data_type.BasicDataTypeExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="VariablePractiseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin Workplace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="data_type.BasicDataTypeExampleKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="data_type.VariablePractiseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin Workplace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="data_type.VariablePractiseKt" />
+      <option name="MAIN_CLASS_NAME" value="variables.VariablePractiseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,18 +121,6 @@
         <item itemvalue="Kotlin.HelloKotlinKt" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,66 +137,45 @@
       <workItem from="1578824984055" duration="10894000" />
       <workItem from="1579595240474" duration="1515000" />
       <workItem from="1580794865154" duration="1212000" />
-      <workItem from="1580803041517" duration="1157000" />
+      <workItem from="1580803041517" duration="2243000" />
+      <workItem from="1593240450507" duration="599000" />
+      <workItem from="1593668170294" duration="1218000" />
+      <workItem from="1593669510840" duration="968000" />
     </task>
+    <task id="LOCAL-00001" summary="data type basic program add">
+      <created>1580804339010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580804339010</updated>
+    </task>
+    <task id="LOCAL-00002" summary="condition program add">
+      <created>1580804379724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580804379724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="data type basic program add" />
+    <MESSAGE value="condition program add" />
+    <option name="LAST_COMMIT_MESSAGE" value="condition program add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="310" y="58" width="800" height="677" key="#Project_Structure" timestamp="1578768598014">
+    <state x="310" y="42" width="800" height="712" key="#Plugins" timestamp="1593670338306">
       <screen x="65" y="27" width="1301" height="741" />
     </state>
-    <state x="310" y="58" width="800" height="677" key="#Project_Structure/65.27.1301.741@65.27.1301.741" timestamp="1578768598014" />
-    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578768564500">
+    <state x="310" y="42" width="800" height="712" key="#Plugins/65.27.1301.741@65.27.1301.741" timestamp="1593670338306" />
+    <state x="204" y="33" key="SettingsEditor" timestamp="1593670363162">
       <screen x="65" y="27" width="1301" height="741" />
     </state>
-    <state x="173" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.27.1301.741@65.27.1301.741" timestamp="1578768564500" />
-    <state x="398" y="125" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580801781511">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="398" y="125" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/65.27.1301.741@65.27.1301.741" timestamp="1580801781511" />
-    <state x="280" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1580804338735">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="280" y="27" width="860" height="741" key="CommitChangelistDialog2/65.27.1301.741@65.27.1301.741" timestamp="1580804338735" />
-    <state width="1235" height="152" key="GridCell.Tab.0.bottom" timestamp="1579599669990">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1235" height="152" key="GridCell.Tab.0.bottom/65.27.1301.741@65.27.1301.741" timestamp="1579599669990" />
-    <state width="1235" height="152" key="GridCell.Tab.0.center" timestamp="1579599669990">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1235" height="152" key="GridCell.Tab.0.center/65.27.1301.741@65.27.1301.741" timestamp="1579599669990" />
-    <state width="1235" height="152" key="GridCell.Tab.0.left" timestamp="1579599669989">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1235" height="152" key="GridCell.Tab.0.left/65.27.1301.741@65.27.1301.741" timestamp="1579599669989" />
-    <state width="1235" height="152" key="GridCell.Tab.0.right" timestamp="1579599669990">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1235" height="152" key="GridCell.Tab.0.right/65.27.1301.741@65.27.1301.741" timestamp="1579599669990" />
-    <state width="1255" height="209" key="GridCell.Tab.1.bottom" timestamp="1578768984044">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1255" height="209" key="GridCell.Tab.1.bottom/65.27.1301.741@65.27.1301.741" timestamp="1578768984044" />
-    <state width="1255" height="209" key="GridCell.Tab.1.center" timestamp="1578768984043">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1255" height="209" key="GridCell.Tab.1.center/65.27.1301.741@65.27.1301.741" timestamp="1578768984043" />
-    <state width="1255" height="209" key="GridCell.Tab.1.left" timestamp="1578768984043">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1255" height="209" key="GridCell.Tab.1.left/65.27.1301.741@65.27.1301.741" timestamp="1578768984043" />
-    <state width="1255" height="209" key="GridCell.Tab.1.right" timestamp="1578768984044">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state width="1255" height="209" key="GridCell.Tab.1.right/65.27.1301.741@65.27.1301.741" timestamp="1578768984044" />
-    <state x="379" y="39" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578836488015">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="379" y="39" width="662" height="715" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.27.1301.741@65.27.1301.741" timestamp="1578836488015" />
+    <state x="204" y="33" key="SettingsEditor/65.27.1301.741@65.27.1301.741" timestamp="1593670363162" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
