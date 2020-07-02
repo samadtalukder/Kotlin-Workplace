@@ -5,11 +5,8 @@
       <change afterPath="$PROJECT_DIR$/src/conditions/IfElse.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/functions/SimpleFunctionTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/loops/SimpleLoopTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/condition/IfElse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_type/BasicDataTypeExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/BasicDataTypeExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_type/VariablePractise.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/VariablePractise.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +137,7 @@
       <workItem from="1580803041517" duration="2243000" />
       <workItem from="1593240450507" duration="599000" />
       <workItem from="1593668170294" duration="1218000" />
-      <workItem from="1593669510840" duration="968000" />
+      <workItem from="1593669510840" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580804379724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="package name modify">
+      <created>1593671018752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593671018752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,13 +169,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data type basic program add" />
     <MESSAGE value="condition program add" />
-    <option name="LAST_COMMIT_MESSAGE" value="condition program add" />
+    <MESSAGE value="package name modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="package name modify" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="42" width="800" height="712" key="#Plugins" timestamp="1593670338306">
       <screen x="65" y="27" width="1301" height="741" />
     </state>
     <state x="310" y="42" width="800" height="712" key="#Plugins/65.27.1301.741@65.27.1301.741" timestamp="1593670338306" />
+    <state x="254" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1593671018489">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="254" y="27" width="912" height="741" key="CommitChangelistDialog2/65.27.1301.741@65.27.1301.741" timestamp="1593671018489" />
     <state x="204" y="33" key="SettingsEditor" timestamp="1593670363162">
       <screen x="65" y="27" width="1301" height="741" />
     </state>
