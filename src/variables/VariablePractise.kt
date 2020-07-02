@@ -1,4 +1,4 @@
-package data_type
+package variables
 
 
 fun main() {
