@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conditions/IfElse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/SimpleFunctionTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loops/SimpleLoopTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/condition/IfElse.kt" beforeDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="package name modify">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control_flow/ConditionalExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control_flow/SafeNavigationOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control_flow/WhenExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LogicalConjunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LogicalDisjunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/TypeCheckAndCast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/ValvsVar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/Variable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/HelloKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/HelloKotlinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/BasicDataTypeExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/VariablePractiseKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conditions/IfElse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/control_flow/IfElse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables/VariablePractise.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +60,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -57,68 +73,62 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin.condition.IfElseKt">
-    <configuration name="BasicDataTypeExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin Workplace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="variables.BasicDataTypeExampleKt" />
-      <option name="WORKING_DIRECTORY" />
+  <component name="RunManager" selected="Kotlin.ValvsVarKt">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NullExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables.NullExampleKt" />
       <module name="Kotlin Workplace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="HelloKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables.NullSafetyKt" />
       <module name="Kotlin Workplace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="conditions.IfElseKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariablePractiseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="TypeCheckAndCastKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables.TypeCheckAndCastKt" />
       <module name="Kotlin Workplace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="variables.VariablePractiseKt" />
-      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValvsVarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables.ValvsVarKt" />
+      <module name="Kotlin Workplace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables.VariableKt" />
+      <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.condition.IfElseKt" />
-        <item itemvalue="Kotlin.data_type.BasicDataTypeExampleKt" />
-        <item itemvalue="Kotlin.data_type.VariablePractiseKt" />
-        <item itemvalue="Kotlin.HelloKotlinKt" />
+        <item itemvalue="Kotlin.ValvsVarKt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,6 +148,10 @@
       <workItem from="1593240450507" duration="599000" />
       <workItem from="1593668170294" duration="1218000" />
       <workItem from="1593669510840" duration="1326000" />
+      <workItem from="1624029680499" duration="9243000" />
+      <workItem from="1624084724521" duration="4093000" />
+      <workItem from="1624090592450" duration="4911000" />
+      <workItem from="1624101086746" duration="1992000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -164,27 +178,25 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data type basic program add" />
     <MESSAGE value="condition program add" />
     <MESSAGE value="package name modify" />
     <option name="LAST_COMMIT_MESSAGE" value="package name modify" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="310" y="42" width="800" height="712" key="#Plugins" timestamp="1593670338306">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="310" y="42" width="800" height="712" key="#Plugins/65.27.1301.741@65.27.1301.741" timestamp="1593670338306" />
-    <state x="254" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1593671018489">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="254" y="27" width="912" height="741" key="CommitChangelistDialog2/65.27.1301.741@65.27.1301.741" timestamp="1593671018489" />
-    <state x="204" y="33" key="SettingsEditor" timestamp="1593670363162">
-      <screen x="65" y="27" width="1301" height="741" />
-    </state>
-    <state x="204" y="33" key="SettingsEditor/65.27.1301.741@65.27.1301.741" timestamp="1593670363162" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
