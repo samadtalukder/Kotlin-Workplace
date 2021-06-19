@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="package name modify">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="practiced with var vs val">
       <change afterPath="$PROJECT_DIR$/src/control_flow/ConditionalExpressions.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/control_flow/SafeNavigationOperator.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/control_flow/WhenExpressions.kt" afterDir="false" />
@@ -10,12 +9,9 @@
       <change afterPath="$PROJECT_DIR$/src/operators/LogicalDisjunction.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/variables/NullSafety.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/variables/TypeCheckAndCast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/ValvsVar.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/variables/Variable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/HelloKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/HelloKotlinKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/condition/IfElseKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/BasicDataTypeExampleKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/data_type/VariablePractiseKt.class" beforeDir="false" />
@@ -151,7 +147,7 @@
       <workItem from="1624029680499" duration="9243000" />
       <workItem from="1624084724521" duration="4093000" />
       <workItem from="1624090592450" duration="4911000" />
-      <workItem from="1624101086746" duration="1992000" />
+      <workItem from="1624101086746" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -174,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593671018752</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="practiced with var vs val">
+      <created>1624104162524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624104162524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +199,8 @@
     <MESSAGE value="data type basic program add" />
     <MESSAGE value="condition program add" />
     <MESSAGE value="package name modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="package name modify" />
+    <MESSAGE value="practiced with var vs val" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced with var vs val" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
