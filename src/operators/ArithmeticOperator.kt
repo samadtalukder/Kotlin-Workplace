@@ -58,4 +58,12 @@ fun main() {
 
     println("Pre-Decrement: $preDecY")
     println("Post-Decrement: $postDec")
+
+    /* Unary Operator */
+    var number = 50
+    val minus = -(number)
+    val plus = +(number)
+
+    println("Unary Minus: $minus")
+    println("Unary Plus: $plus")
 }
