@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="ArithmeticOperator Example">
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="Unary operator add">
       <change afterPath="$PROJECT_DIR$/src/operators/EqualityOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operators/ArithmeticOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/operators/ArithmeticOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin.ArithmeticOperatorKt">
+  <component name="RunManager" selected="Kotlin.EqualityOperatorKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -76,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.NullSafetyKt" />
+    <configuration name="EqualityOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operators.EqualityOperatorKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EqualityOperatorKt" />
         <item itemvalue="Kotlin.ArithmeticOperatorKt" />
         <item itemvalue="Kotlin.TypeCheckAndCastKt" />
         <item itemvalue="Kotlin.ValvsVarKt" />
@@ -136,7 +136,7 @@
       <workItem from="1624084724521" duration="4093000" />
       <workItem from="1624090592450" duration="4911000" />
       <workItem from="1624101086746" duration="4635000" />
-      <workItem from="1624979746449" duration="3804000" />
+      <workItem from="1624979746449" duration="4736000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624983286870</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Unary operator add">
+      <created>1624983632434</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624983632434</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +228,8 @@
     <MESSAGE value="modified" />
     <MESSAGE value="practiced with variable" />
     <MESSAGE value="ArithmeticOperator Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArithmeticOperator Example" />
+    <MESSAGE value="Unary operator add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unary operator add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
