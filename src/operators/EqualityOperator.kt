@@ -5,8 +5,8 @@ fun main() {
 
     val num1 = 36
     val num2 = 24
-    val str1="hello"
-    val str2="olleh"
+    val str1 = "hello"
+    val str2 = "olleh"
 
     val isEqual = num1 == num2
     val isStringEqual = str1 == str2
@@ -22,6 +22,17 @@ fun main() {
 
     val isStringGreaterThen = str1 != str2
 
+    val a = 12
+    val b = 12-10
+
+    val maximum = if (a > b) {
+        println("A is maximum")
+        a
+    } else {
+        println("B is maximum")
+        b
+    }
+
     println("Check Equal: $isEqual")
     println("Check String Equal: $isStringEqual")
     println("Check String Not Equal: $isStringNotEqual")
@@ -31,4 +42,5 @@ fun main() {
     println("Num1 Is Less Than Num2: $isLessThen")
     println("Num1 Is Less Than Or Equal Num2: $isLessThenOrEqual")
     println("Check Not Equal: $isStringGreaterThen")
+    println("Maximum: $maximum")
 }
