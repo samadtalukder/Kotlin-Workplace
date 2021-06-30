@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="Equality operator add">
-      <change afterPath="$PROJECT_DIR$/src/operators/BitwiseOperator.kt" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="logical operator add">
+      <change afterPath="$PROJECT_DIR$/src/functions/BasicFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/DoWhile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/ForInLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/ReturnBreakContinue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/WhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/InOperator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operators/LogicalOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/operators/LogicalOperator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,48 +62,50 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin.BitwiseOperatorKt">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.BasicFunctionKt">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.ArithmeticOperatorKt" />
+    <configuration name="BasicFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.BasicFunctionKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.BitwiseOperatorKt" />
+    <configuration name="DoWhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.DoWhileKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualityOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.EqualityOperatorKt" />
+    <configuration name="ForInLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ForInLoopKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.LogicalOperatorKt" />
+    <configuration name="ReturnBreakContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ReturnBreakContinueKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeCheckAndCastKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.TypeCheckAndCastKt" />
+    <configuration name="WhileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.WhileLoopKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.BitwiseOperatorKt" />
-        <item itemvalue="Kotlin.LogicalOperatorKt" />
-        <item itemvalue="Kotlin.EqualityOperatorKt" />
-        <item itemvalue="Kotlin.ArithmeticOperatorKt" />
-        <item itemvalue="Kotlin.TypeCheckAndCastKt" />
+        <item itemvalue="Kotlin.BasicFunctionKt" />
+        <item itemvalue="Kotlin.ReturnBreakContinueKt" />
+        <item itemvalue="Kotlin.DoWhileKt" />
+        <item itemvalue="Kotlin.WhileLoopKt" />
+        <item itemvalue="Kotlin.ForInLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +145,8 @@
       <workItem from="1624084724521" duration="4093000" />
       <workItem from="1624090592450" duration="4911000" />
       <workItem from="1624101086746" duration="4635000" />
-      <workItem from="1624979746449" duration="9124000" />
+      <workItem from="1624979746449" duration="12944000" />
+      <workItem from="1625059652012" duration="9451000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -218,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624989964735</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bitwise operator add">
+      <created>1624993130967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624993130967</updated>
+    </task>
+    <task id="LOCAL-00013" summary="logical operator add">
+      <created>1624993138816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624993138816</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +268,9 @@
     <MESSAGE value="ArithmeticOperator Example" />
     <MESSAGE value="Unary operator add" />
     <MESSAGE value="Equality operator add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Equality operator add" />
+    <MESSAGE value="bitwise operator add" />
+    <MESSAGE value="logical operator add" />
+    <option name="LAST_COMMIT_MESSAGE" value="logical operator add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
