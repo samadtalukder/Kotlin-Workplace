@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="logical operator add">
-      <change afterPath="$PROJECT_DIR$/src/functions/BasicFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loop/DoWhile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loop/ForInLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loop/ReturnBreakContinue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loop/WhileLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/InOperator.kt" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="Basic Function program add">
+      <change afterPath="$PROJECT_DIR$/src/functions/Overloading.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
     </list>
@@ -62,7 +57,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin.BasicFunctionKt">
+  <component name="RunManager" selected="Kotlin.OverloadingKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -90,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForInLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ForInLoopKt" />
+    <configuration name="OverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.OverloadingKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OverloadingKt" />
         <item itemvalue="Kotlin.BasicFunctionKt" />
         <item itemvalue="Kotlin.ReturnBreakContinueKt" />
         <item itemvalue="Kotlin.DoWhileKt" />
         <item itemvalue="Kotlin.WhileLoopKt" />
-        <item itemvalue="Kotlin.ForInLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +141,7 @@
       <workItem from="1624090592450" duration="4911000" />
       <workItem from="1624101086746" duration="4635000" />
       <workItem from="1624979746449" duration="12944000" />
-      <workItem from="1625059652012" duration="9451000" />
+      <workItem from="1625059652012" duration="12143000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -239,7 +234,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624993138816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="In operator add">
+      <created>1625069768541</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625069768541</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Iteration program add">
+      <created>1625069788671</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625069788671</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Basic Function program add">
+      <created>1625069801405</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625069801405</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +286,10 @@
     <MESSAGE value="Equality operator add" />
     <MESSAGE value="bitwise operator add" />
     <MESSAGE value="logical operator add" />
-    <option name="LAST_COMMIT_MESSAGE" value="logical operator add" />
+    <MESSAGE value="In operator add" />
+    <MESSAGE value="Iteration program add" />
+    <MESSAGE value="Basic Function program add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Function program add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
