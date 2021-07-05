@@ -1,5 +1,7 @@
 package functions
 
+import sun.security.util.Length
+
 fun main() {
     sumTwoNumber(11.10, 33.30)
     val result = returnMultiplyTwoNumber(59.10, 66.69)
@@ -9,6 +11,8 @@ fun main() {
     val printDivided = divided(10.10, 2.12)
     val printStr = str("J", "K")
     val printSub = showSub(10, 2)
+
+    namedArgument("Hello Kotlin Bangladesh", 10)
 
     println("Result: $result")
     println("Name: $printFullName")
@@ -44,4 +48,10 @@ fun str(x: String, y: String) = "$x - $y"
 
 fun defaultFunctionParameter(name: String = "Kotlin", release: Int = 2017): String {
     return "Name: $name- Release Year: $release";
+}
+
+fun namedArgument(text: String, length: Int) {
+    for (num in 1..length) {
+        println("Output: $text")
+    }
 }
