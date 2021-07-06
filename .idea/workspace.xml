@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="class, object, constructor, init block program added">
-      <change beforePath="$PROJECT_DIR$/src/oop/MainProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/MainProduct.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/PrimaryConstructorWithInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/PrimaryConstructorWithInit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Secondary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Secondary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/SecondaryConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/SecondaryConstructor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Torchlight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Torchlight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/getter_setter/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/getter_setter/MainBook.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/MainProductKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/PrimaryConstructorWithInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/Torchlight.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin.MainProductKt">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Kotlin-Workplace\src\oop\class_constructor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainBookKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -81,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ListExampleKt" />
+    <configuration name="MainBookKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.getter_setter.MainBookKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainBookKt" />
         <item itemvalue="Kotlin.MainProductKt" />
         <item itemvalue="Kotlin.Pairs_TuplesKt" />
         <item itemvalue="Kotlin.SetExampleKt" />
         <item itemvalue="Kotlin.MapExampleKt" />
-        <item itemvalue="Kotlin.ListExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +163,7 @@
       <workItem from="1625480515093" duration="6452000" />
       <workItem from="1625497539607" duration="14475000" />
       <workItem from="1625589794665" duration="1061000" />
-      <workItem from="1625591398980" duration="4482000" />
+      <workItem from="1625591398980" duration="5949000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -354,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625596188828</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="class, object, constructor, init block program added">
+      <created>1625596243529</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1625596243529</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
