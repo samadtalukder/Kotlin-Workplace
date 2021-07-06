@@ -1,4 +1,4 @@
-package oop
+package oop.class_constructor
 
 fun main() {
     val product = Product(productName = "Addidas Shoe", productId = 124, productPrice = 300.00)
@@ -17,7 +17,7 @@ fun main() {
 
 
 
-    val secondaryConstructor=Secondary("Babu",155)
+    val secondaryConstructor= Secondary("Babu",155)
 
     println("Product ID: ${product.productId}")
     println("Product Name: ${product.productName}")

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="Pair &amp; Triple program add">
-      <change afterPath="$PROJECT_DIR$/src/oop/MainProduct.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/PrimaryConstructorWithInit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Secondary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/SecondaryConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Torchlight.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="class, object, constructor, init block program added">
+      <change beforePath="$PROJECT_DIR$/src/oop/MainProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/MainProduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/PrimaryConstructorWithInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/PrimaryConstructorWithInit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Secondary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Secondary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/SecondaryConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/SecondaryConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Torchlight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/class_constructor/Torchlight.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       </method>
     </configuration>
     <configuration name="MainProductKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.MainProductKt" />
+      <option name="MAIN_CLASS_NAME" value="oop.class_constructor.MainProductKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,7 +156,7 @@
       <workItem from="1625480515093" duration="6452000" />
       <workItem from="1625497539607" duration="14475000" />
       <workItem from="1625589794665" duration="1061000" />
-      <workItem from="1625591398980" duration="4181000" />
+      <workItem from="1625591398980" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625515885463</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="class, object, constructor, init block program added">
+      <created>1625596188828</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1625596188828</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +373,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="data type basic program add" />
     <MESSAGE value="condition program add" />
     <MESSAGE value="package name modify" />
     <MESSAGE value="practiced with var vs val" />
@@ -393,7 +397,8 @@
     <MESSAGE value="Set program add" />
     <MESSAGE value="Recursion program add" />
     <MESSAGE value="Pair &amp; Triple program add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pair &amp; Triple program add" />
+    <MESSAGE value="class, object, constructor, init block program added" />
+    <option name="LAST_COMMIT_MESSAGE" value="class, object, constructor, init block program added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

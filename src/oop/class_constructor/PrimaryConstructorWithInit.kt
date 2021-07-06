@@ -1,4 +1,4 @@
-package oop
+package oop.class_constructor
 // primary constructor is part of the class header
 // primary constructor have a limitation that it doesn't have a body . can't contain code
 // secondary constructor always create with 'constructor' keyword

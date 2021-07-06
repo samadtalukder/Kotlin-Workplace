@@ -1,4 +1,4 @@
-package oop
+package oop.class_constructor
 
 open class SecondaryConstructor {
     private var _name: String = ""

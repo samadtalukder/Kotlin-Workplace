@@ -1,4 +1,4 @@
-package oop
+package oop.class_constructor
 
 class Torchlight {
      var isON: Boolean = false

@@ -1,4 +1,4 @@
-package oop
+package oop.class_constructor
 // primary constructor
 class Product(val productName: String, val productId: Int, val productPrice: Double) {
 
