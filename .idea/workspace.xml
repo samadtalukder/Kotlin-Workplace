@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="class, object, constructor, init block program added">
-      <change afterPath="$PROJECT_DIR$/src/oop/getter_setter/Book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/getter_setter/MainBook.kt" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="getter setter program added">
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/MainMobile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/Mobile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/OnePlus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/iPhone.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/MainProductKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/PrimaryConstructorWithInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/oop/Torchlight.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +73,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Kotlin-Workplace\src\oop\class_constructor" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="oop.inheritance" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainBookKt">
+  <component name="RunManager" selected="Kotlin.MainMobileKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -95,15 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProductKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.class_constructor.MainProductKt" />
+    <configuration name="MainMobileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.inheritance.MainMobileKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.MapExampleKt" />
+    <configuration name="MainProductKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.class_constructor.MainProductKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainMobileKt" />
         <item itemvalue="Kotlin.MainBookKt" />
         <item itemvalue="Kotlin.MainProductKt" />
         <item itemvalue="Kotlin.Pairs_TuplesKt" />
         <item itemvalue="Kotlin.SetExampleKt" />
-        <item itemvalue="Kotlin.MapExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,7 @@
       <workItem from="1625480515093" duration="6452000" />
       <workItem from="1625497539607" duration="14475000" />
       <workItem from="1625589794665" duration="1061000" />
-      <workItem from="1625591398980" duration="5949000" />
+      <workItem from="1625591398980" duration="8502000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -368,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625596243529</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="getter setter program added">
+      <created>1625598630900</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1625598630900</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +395,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="condition program add" />
     <MESSAGE value="package name modify" />
     <MESSAGE value="practiced with var vs val" />
     <MESSAGE value="practiced with null safety" />
@@ -412,7 +419,8 @@
     <MESSAGE value="Recursion program add" />
     <MESSAGE value="Pair &amp; Triple program add" />
     <MESSAGE value="class, object, constructor, init block program added" />
-    <option name="LAST_COMMIT_MESSAGE" value="class, object, constructor, init block program added" />
+    <MESSAGE value="getter setter program added" />
+    <option name="LAST_COMMIT_MESSAGE" value="getter setter program added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
