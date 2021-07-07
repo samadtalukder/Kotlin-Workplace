@@ -35,8 +35,8 @@ fun main() {
     println("Arrays Get: ${arrNums.get(1)}")
     println("ArraySize: ${arrNums.size}")
 
-    println("Array Max: ${itArr.max()}")
-    println("Array Min: ${itArr.min()}")
+    println("Array Max: ${itArr.maxOrNull()}")
+    println("Array Min: ${itArr.minOrNull()}")
     println("Array Average: ${itArr.average()}")
     println("Array Sum: ${itArr.sum()}")
     println("Array Count: ${itArr.count()}")

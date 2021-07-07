@@ -55,8 +55,8 @@ fun main() {
     println("Predefined Function")
     val pre = 20..40
 
-    println("MAX: ${pre.max()}")
-    println("MIN: ${pre.min()}")
+    println("MAX: ${pre.maxOrNull()}")
+    println("MIN: ${pre.minOrNull()}")
     println("AVERAGE: ${pre.average()}")
     println("COUNT: ${pre.count()}")
 

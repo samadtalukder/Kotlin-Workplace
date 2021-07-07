@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="inheritance program added">
-      <change afterPath="$PROJECT_DIR$/src/oop/overriding/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/overriding/MainAnimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/overriding/Tiger.kt" afterDir="false" />
+    <list default="true" id="d5ec053d-c73b-49bf-93cb-84da256807ce" name="Default Changelist" comment="overriding program added">
+      <change afterPath="$PROJECT_DIR$/src/oop/visibilty_modifier/Account.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/visibilty_modifier/BangladeshBank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/visibilty_modifier/MainBank.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin Workplace/META-INF/Kotlin Workplace.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kotlin Workplace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kotlin Workplace.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +76,7 @@
       <recent name="oop.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainAnimalKt">
+  <component name="RunManager" selected="Kotlin.MainBankKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -88,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ArrayExampleKt" />
+      <module name="Kotlin Workplace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainAnimalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.overriding.MainAnimalKt" />
+      <module name="Kotlin Workplace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBankKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.visibilty_modifier.MainBankKt" />
       <module name="Kotlin Workplace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,27 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProductKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.class_constructor.MainProductKt" />
-      <module name="Kotlin Workplace" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pairs_TuplesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.Pairs_TuplesKt" />
-      <module name="Kotlin Workplace" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainBankKt" />
+        <item itemvalue="Kotlin.ArrayExampleKt" />
         <item itemvalue="Kotlin.MainAnimalKt" />
         <item itemvalue="Kotlin.MainMobileKt" />
         <item itemvalue="Kotlin.MainBookKt" />
-        <item itemvalue="Kotlin.MainProductKt" />
-        <item itemvalue="Kotlin.Pairs_TuplesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,9 @@
       <workItem from="1625589794665" duration="1061000" />
       <workItem from="1625591398980" duration="8534000" />
       <workItem from="1625631954188" duration="3236000" />
-      <workItem from="1625667116004" duration="878000" />
+      <workItem from="1625667116004" duration="2828000" />
+      <workItem from="1625669982990" duration="2568000" />
+      <workItem from="1625680342511" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="data type basic program add">
       <created>1580804339010</created>
@@ -384,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625601698878</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="overriding program added">
+      <created>1625668031003</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1625668031003</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +412,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practiced with var vs val" />
     <MESSAGE value="practiced with null safety" />
     <MESSAGE value="modified" />
     <MESSAGE value="practiced with variable" />
@@ -428,7 +436,12 @@
     <MESSAGE value="class, object, constructor, init block program added" />
     <MESSAGE value="getter setter program added" />
     <MESSAGE value="inheritance program added" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance program added" />
+    <MESSAGE value="overriding program added" />
+    <option name="LAST_COMMIT_MESSAGE" value="overriding program added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Workplace$data_type_BasicDataTypeExampleKt.ic" NAME="data_type.BasicDataTypeExampleKt Coverage Results" MODIFIED="1578768901334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
